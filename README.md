@@ -13,7 +13,7 @@ For CiviCRM 4.7 & up:
 
 COPY IPN FILE
 -------------
-To handle the Worldpay IPN please copy the IPN file from this extensions "CRM/extern/worldPayNotify.php" to "../civicrm/extern/worldPayNotify.php"
+To handle the Worldpay IPN please copy the IPN file from this extensions "./extern/worldPayNotify.php" to "../civicrm/extern/worldPayNotify.php"
 
 
 CONFIGURATION
