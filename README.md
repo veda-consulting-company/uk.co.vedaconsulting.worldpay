@@ -25,6 +25,6 @@ To setup a new payment processor, click on Administer > System Settings > Paymen
 2) Enter the Payment Processor name Example: "Worldpay"
 3) Set Financial Account Example "Payment Processor Account"
 
-For the Payment Processor Details, you must provide Username which is worldpay api user id. and site URL should be "https://secure.worldpay.com/wcc/purchase"
+For the Payment Processor Details (Live/Test Payments), you must provide Username which is worldpay api user id. and site URL should be "https://secure.worldpay.com/wcc/purchase"
 
 
