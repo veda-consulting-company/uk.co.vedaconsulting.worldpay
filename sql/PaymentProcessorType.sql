@@ -1,0 +1,44 @@
+INSERT INTO civicrm_payment_processor_type (name
+, title
+, description
+, is_active
+, is_default
+, user_name_label
+, password_label
+, signature_label
+, subject_label
+, class_name
+, url_site_default
+, url_api_default
+, url_recur_default
+, url_button_default
+, url_site_test_default
+, url_api_test_default
+, url_recur_test_default
+, url_button_test_default
+, billing_mode
+, is_recur
+, payment_type
+, payment_instrument_id
+) VALUES ( 'WorldPay'
+, 'WorldPay'
+, 'WorldPay'
+, '1'
+, '0'
+, 'User Name'
+, 'Password'
+, 'Signature'
+, 'Subject'
+, 'Payment_WorldPay'
+, 'https://select.worldpay.com/wcc/purchase'
+, 'NULL'
+, 'https://select.worldpay.com/wcc/purchase'
+, 'NULL'
+, 'https://select-test.worldpay.com/wcc/purchase'
+, 'NULL'
+, 'https://select-test.worldpay.com/wcc/purchase'
+, 'NULL'
+, '4'
+, '1'
+, '1'
+, '1');
